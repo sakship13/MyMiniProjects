@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.choices{
+    display: flex;
+    margin: 3rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    background-color:#081b31 ;
+}
+#rock-btn{
+    
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+#paper-btn{
+   
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+#scissors-btn{
+    
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 3.5rem;
+}
+.you-score{
+    font-size: 1.8rem;
+    font: bold;
+}
+.comp-score{
+    font-size: 1.8rem;
+    font: bold;
+}
+#u{
+   margin-left: 50px;
+}
+#c{
+    margin-left: 50px;
+ }
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .btn p{
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color:#081b31 ;
+    padding: 1.7rem;
+ }

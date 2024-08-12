@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #FFEBD4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+   
+    padding: 2rem;
+    height: 50vh;
+    width:45vh ;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.form{
+    margin: 2rem 0 1rem 0;
+    padding: 1rem;
+}
+
+.form select,button ,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    
+}
+.form input{
+    border: 1px solid lightgray;
+    padding-left:0.5rem ;
+    height: 3rem;
+    font-size: 1rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.select-choice img{
+    max-width: 2.2rem;
+
+}
+.select-choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+    width: 6rem;
+   
+}
+.select-choice select{
+    font-size: 1rem;
+    width:auto;
+}
+.info{
+    margin: 2rem 0 2rem 0;
+
+}
+button{
+    height: 3rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #906ea5;
+   
+}
+.amount p,.from p,.to p{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
