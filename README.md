@@ -1,0 +1,2 @@
+# MyMiniProjects
+miniprojects in javascript
